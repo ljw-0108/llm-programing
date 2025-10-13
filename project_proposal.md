@@ -60,24 +60,7 @@
 
 ---
 
-##  간트차트 (Mermaid)
 
-```mermaid
-gantt
-    title AI 강의 요약 및 퀴즈 자동 생성기 - 6주 일정
-    dateFormat  YYYY-MM-DD
-    section 기획 및 환경 구축
-    프로젝트 주제 확정 및 역할분담      :done,    des1, 2025-10-14, 5d
-    OpenAI API 테스트                   :active,  des2, 2025-10-18, 5d
-    section 기능 개발 1단계
-    Whisper API 음성 → 텍스트 변환       :active,  des3, 2025-10-21, 7d
-    section 기능 개발 2단계
-    GPT 요약 모듈 구현                  :des4, 2025-10-28, 7d
-    section 기능 개발 3단계
-    퀴즈 생성 및 해설 기능              :des5, 2025-11-04, 7d
-    section 통합 및 테스트
-    Streamlit UI + 시각화 통합          :des6, 2025-11-11, 7d
-    전체 기능 통합 테스트 및 발표자료 제작 :des7, 2025-11-18, 7d
 
 ##  팀 구성원
 | 이름 | 학번 | 역할 |
